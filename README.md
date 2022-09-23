@@ -1,16 +1,16 @@
 # Disocrd-server-info
-The name already explains it.
+名前の通りです。
 
-## Installation
+## インストール
 NpmJS:
 ```
 npm i request-async
 ```
 
-## Usage
+## 使用方法
 ```
 node index.js <guildID> <token>
 ```
 
-- guildID - The target server/guild ID.
-- token - The Discord account token that will be used for API authorization.
+- guildID - ターゲットのサーバーID
+- token - ログインの為のToken(このアカウントがターゲットのサーバーに入っていないと実行できません。)
